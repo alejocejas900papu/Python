@@ -1,0 +1,22 @@
+#Decoración Nombre del Algoritmo
+print(-------------------------------------------------------)
+print(Ejercicio4 PUNTAJE TOTAL DE PARTIDOS.)
+print(-------------------------------------------------------)
+#Entradas
+print(Ingrese número de partidos ganados)
+PG = int( input())
+print(Ingrese número de partidos empatados)
+PE = int( input())
+print(Ingrese número de partidos perdidos)
+PP = int( input())
+#Proceso
+PPG = PG3
+PPE = PE1
+PPP = PP0
+PF = PPG + PPE + PPP
+#Salida
+print(nSALIDA )
+print(-------------------------------------------------------)
+print(Puntaje Final , PF)
+print( FIN )
+print (------------------------------------------------------)
