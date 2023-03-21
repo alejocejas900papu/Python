@@ -1,0 +1,17 @@
+#Decoración: Nombre del Algoritmo
+print("-------------------------------------------------------")
+print(Trabajo practivo n 5)
+print("-------------------------------------------------------")
+#Entradas
+print("Ingrese GB: ")
+GB = float( input())
+#Proceso
+MG = GB*1024
+MD = MG/1.44
+#Salida
+print("\nSALIDA: ")
+print("-------------------------------------------------------")
+print(MD)
+#si es decimal aproximar al siguiente entero
+#Ya que la parte decimal debe ser almacenada en otro DISCO 3.5
+print("Numero de discos necesarios: ", math.ceil(MD))
