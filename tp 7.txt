@@ -1,0 +1,16 @@
+# -*- coding: utf-8 -*-
+#Decoración: Nombre del Algoritmo
+print("-------------------------------------------------------")
+print("trabajo practico 7")
+print("-------------------------------------------------------")
+#Entradas
+print("Ingresa las notas ")
+N1 = int( input("N1: "))
+N2 = int( input("N2: "))
+#Proceso
+S = N1 + N2
+P = S/2
+#Salida
+print("\nsalida ")
+print("-------------------------------------------------------")
+print("promedio", P)
