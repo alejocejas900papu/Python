@@ -1,0 +1,20 @@
+# -*- coding: utf-8 -*-
+#Decoración: Nombre del Algoritmo
+print("-------------------------------------------------------")
+print("tp 6")
+print("-------------------------------------------------------")
+#Entradas
+print("Ingresa las cordenadas de el punto a ")
+AX = float(input("Ax: "))
+AY = float(input("Ay: "))
+print("Ingresa las cordenadas del punto b ")
+BX = float(input("Bx: "))
+BY = float(input("By: "))
+#Proceso
+D = ( (AX-BX)**2 + (AY-BY)**2 )**0.5
+#Salida
+print("\n-salida ")
+print("-------------------------------------------------------")
+print("resultado final", D)
+print( fin ) 
+print (--------------------------------------------------------)
