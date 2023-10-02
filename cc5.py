@@ -2,18 +2,15 @@ print("-------------------------------------------------------")
 print("Complementario 5")
 print("-------------------------------------------------------")
 
-s=0
+print("Ingrese las velocidades de ambos vehículos: ")
+v1 = float( input("V1: "))
+v2 = float( input("V2: "))
+print("Ingrese la distancia que los separa: ")
+d = float( input("Distancia: "))
+print("-------------------------------------------------------")
 
-print("ingrese numero de terminos:")
-
-n= int(input())
-
-for x in range(1,n+1) :
-    if x%2 ==0 :
-        s= s - (1/x)
-    else:
-        s=s + (1/x)
-
-
-print ("------------------------------------------------------")
-print("la suma sera ", s)        
+if v1 > 0 and v2 > 0 :
+    t = d/(v1+v2)
+    print(t, "segundos")
+else:
+    print("ERROR")
